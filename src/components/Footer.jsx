@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mt-5 md:mt-10 flex flex-col md:items-center md:justify-between">
+          <div className="mt-5 md:mt-10 flex md:flex-col items-center justify-between">
             <div className="flex items-center gap-[20px] sm:flex-col sm:gap-[5px]">
               <div className="sm:text-[14px] sm:font-semibold">
                 Bog'lanish uchun:
@@ -54,9 +54,9 @@ export default function Footer() {
           <div class="flex md:flex-col items-center justify-between mt-10 w-full px-[24px] py-[16px] border-t-2 border-[#eee]">
             <p class="credits md:text-center flex md:flex-col">
               <span className=" whitespace-nowrap">Powered by</span>
-              Akhatmirzo Umarov and Bekzod Sattorov
+              <a href="https://www.instagram.com/akhatmirzo.umarov/" target="_blank">Akhatmirzo Umarov and Bekzod Sattorov</a>
               <span className=" whitespace-nowrap">Designed by</span>
-              Bekzod Sattorov
+              <a href="https://www.instagram.com/iambecksattorov/" target="_blank">Bekzod Sattorov</a>
             </p>
             <nav class="links items-center md:justify-center">
               <a href="/">Licenses</a>
